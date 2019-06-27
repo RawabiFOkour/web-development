@@ -1,0 +1,34 @@
+body{
+            background-color: #f0f8ff;
+        }
+        div{
+            width: 75%;
+            min-width: 500px;
+            border: 1px solid #333333;
+            margin: 1em 0;
+            background-color: white;
+            box-shadow: 3px 3px ; 
+            border-radius: 8px;
+        }
+        .hl1{
+            background-color: #fdca96;
+            font-weight: bold;
+            padding-left: 0.5em;
+            padding-right: 0.5em;
+
+        }
+        .hl2{
+            background-color: #fdfd96;
+            font-weight: bold;
+            padding-left: 0.5em;
+            padding-right: 0.5em;
+
+        }
+        
+
+        #alert{
+            border: dashed red;
+            color: red;
+            box-shadow: 2px 2px red;
+
+        }
