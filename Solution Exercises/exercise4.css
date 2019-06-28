@@ -1,1 +1,28 @@
 /* this is for you to complete */
+ul:only-child {
+	color: blue;
+}
+
+ul li ul li :last-child {
+   list-style:none;
+}
+
+ul > :first-child{
+	font-weight: bold;;
+
+}
+
+ul li a {
+	color: red;
+}
+
+div p a {
+	color: green;
+
+}
+
+div:nth-child(2) p a {
+background-color: yellow;
+color: purple;}
+
+
