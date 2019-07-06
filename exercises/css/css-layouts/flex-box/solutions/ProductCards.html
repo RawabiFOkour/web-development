@@ -1,0 +1,169 @@
+ <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    .continar{
+       display: flex;
+				flex-direction: row;
+				flex-wrap: wrap;
+				justify-content: center;
+		    	align-items: center;
+          
+    }
+    .card {
+             display: flex;
+		    	flex-flow: column wrap;
+		    	justify-content: center;
+		    	align-items: center;
+		    	font-weight: bold;
+				box-shadow: 3px 3px grey;
+				margin: 10px;
+				border: 1px solid black;
+				width: 500px;
+                height: 500px;
+			}
+
+        .lg{
+            width: 830px;
+          
+            
+        }
+         img{
+             width: 300px;
+             height: 300px;
+         } 
+         .card:hover{
+             background-color: lightblue;
+         }
+
+         .button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}  
+           
+  
+    
+    
+    
+    
+    
+    
+    </style>
+</head>
+<body>
+  <div class="continar"> 
+     <div class="card">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/512yMPqA4HL._SY395_QL70_.jpg" alt="product image">
+            <h2>Womens Handbags</h2>
+            <p>Color avalible: black, red, blue</p>
+            <p>Price &dollar;24.99</p>
+            <button class="button button2">Add to cart</button>
+     </div>
+     <div class="card">
+            <img src="data:image/jpeg;base64,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" alt="product image">
+            <h2>Womens Handbags</h2>
+            <p>Color avalible: black, red, blue</p>
+            <p>Price &dollar;34.99</p>
+            <button class="button button2">Add to cart</button>
+     </div>
+     <div class="card ">
+            <img src="https://cdn.shopify.com/s/files/1/0352/7949/products/Mini_Mini_Bucket_Bag_Saffiano_Blu_DETAIL_1_ce08443a-5960-48eb-908d-0dd91e8d7972_grande.jpg?v=1549923126" alt="product image">
+            <h2>Womens Handbags</h2>
+            <p>Color avalible: black, red, blue</p>
+            <p>Price &dollar;26.99</p>
+            <button class="button button2">Add to cart</button>
+     </div>
+     <div class="card lg">
+            <img src="https://img.mytheresa.com/560/560/33/jpeg/catalog/product/bd/P00378567.jpg" alt="product image">
+            <h2>Womens Handbags</h2>
+            <p>Color avalible: black, red, blue</p>
+            <p>Price &dollar;28.99</p>
+            <button class="button button2">Add to cart</button>
+     </div>
+     <div class="card lg">
+            <img src="https://assets.sportsgirl.com.au/media/catalog/product/cache/1/thumbnail/326x420/9df78eab33525d08d6e5fb8d27136e95/0/5/050988667_blush_01.jpg" alt="product image">
+            <h2>Womens Handbags</h2>
+            <p>Color avalible: black, red, blue</p>
+            <p>Price &dollar;44.99</p>
+            <button class="button button2">Add to cart</button>
+
+     </div>
+     <div class="card">
+            <img src="https://i1.adis.ws/i/tumi/1100237519_CategoryLP?w=400" alt="product image">
+            <h2>Womens Handbags</h2>
+            <p>Color avalible: black, red, blue</p>
+            <p>Price &dollar;48.99</p>
+            <button class="button button2">Add to cart</button>
+     </div>
+     <div class="card">
+            <img src="https://guesseu.scene7.com/is/image/GuessEU/HWTP6691120-TUR?wid=380&fmt=jpeg&qlt=70&op_sharpen=0&op_usm=1.0,1.0,5,0&iccEmbed=0" alt="product image">
+            <h2>Womens Handbags</h2>
+            <p>Color avalible: black, red, blue</p>
+            <p>Price &dollar;35.99</p>
+            <button class="button button2">Add to cart</button>
+     </div>
+     <div class="card">
+     <img src="https://images2.drct2u.com/plp_full_width_1/products/ac/ac682/r01ac682704s.jpg" alt="product image">
+     <h2>Womens Handbags</h2>
+     <p></p>
+     <p>Price &dollar;31.99</p>
+     <button class="button button2">Add to cart</button>
+    </div>
+     <div class="card lg">
+            <img src="https://cdn.yoox.biz/45/45308748QJ_13_f.jpg" alt="product image">
+            <h2>Womens Handbags</h2>
+            <p>Color avalible: black, red, blue</p>
+            <p>Price &dollar;29.99</p>
+            <button class="button button2">Add to cart</button>
+     </div>
+     <div class="card lg">
+            <img src="https://d3qsystxi9mvxa.cloudfront.net/media/catalog/product/cache/29/small_image/546x700/9df78eab33525d08d6e5fb8d27136e95/2/0/2018-L7-CK2-20780714-87-1.jpg" alt="product image">
+            <h2>Womens Handbags</h2>
+            <p>Color avalible: black, red, blue</p>
+            <p>Price &dollar;14.99</p>
+            <button class="button button2">Add to cart</button>
+     </div>
+     <div class="card">
+            <img src="https://img1.cohimg.net/is/image/Coach/68349_b4nq4_a0?fmt=jpeg&wid=360&hei=452&qlt=80,0&op_sharpen=0&resMode=bicub&op_usm=5,0.2,0,0&iccEmbed=0&fit=vfit" alt="product image">
+            <h2>Womens Handbags</h2>
+            <p>Color avalible: black, red, blue</p>
+            <p>Price &dollar;42.99</p>
+            <button class="button button2">Add to cart</button>
+     </div>
+     <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpN86RT3j2o7ACeltJXS0eN2Gmc0DWCCAzoBQrGm1YXOVR2GbA" alt="product image">
+            <h2>Womens Handbags</h2>
+            <p>Color avalible: black, red, blue</p>
+            <p>Price &dollar;19.99</p>
+            <button class="button button2">Add to cart</button>
+     </div>
+
+  </div>
+
+
+</body>
+</html> 
