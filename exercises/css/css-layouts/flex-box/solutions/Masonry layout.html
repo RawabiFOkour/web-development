@@ -1,0 +1,135 @@
+<html lang="en">
+
+<head>
+    <title>Ex #3 Masonry Layout</title>
+    <style>
+        body{
+
+            background-color: #db133d;
+
+
+        }
+
+        article{
+            background-color: white;
+            width: 350px;
+            height: 100%;
+            margin: 10px;
+
+        }
+
+        article div{
+            padding: 10px;
+        }
+
+        #Masonry{
+            display: flex;
+            flex-flow: column no-wrap;
+            align-items: flex-start;
+            justify-content: center;
+            width: 100%;
+
+        }
+
+        #col1{
+            display: flex;
+            flex-flow: column wrap;
+        }
+
+        #col2{
+            display: flex;
+            flex-flow: column wrap;
+        }
+
+        #col3{
+            display: flex;
+            flex-flow: column wrap;
+        }
+        a {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="Masonry">
+        <div id="col1">
+            <article>
+                <img src="http://via.placeholder.com/350x150" >
+                <div>
+                    <h2>Some title</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </article>
+            <article>
+                <img src="http://via.placeholder.com/350x220">
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </article>
+
+        </div>
+        <div id="col2">
+            <article >
+                <img src="http://via.placeholder.com/350x100" >
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+            </article>
+            <article >
+                <img src="http://via.placeholder.com/350x230" >
+                <div>
+                    <h2>A little longer Title</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+                    <a href="#">Read More</a>
+                </div>
+            </article>
+            <article>
+                <img src="http://via.placeholder.com/350x150" >
+                <div>
+                    <h2>Some title</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                    <a href="#">Read More</a>
+                </div>
+            </article>
+
+        </div>
+        <div id="col3">
+            <article>
+                <img src="http://via.placeholder.com/350x100" >
+                <div>
+                    <h2>A Title</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    </p>
+                    <a href="#">Read More</a>
+                </div>
+            </article>
+            <article>
+                <img src="http://via.placeholder.com/350x350" >
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                    <a href="#">Read More</a>
+                </div>
+            </article>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
+
